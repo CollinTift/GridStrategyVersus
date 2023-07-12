@@ -1,0 +1,12 @@
+MAP OBJECTS:
+  COMMON: 
+    Health (just UNITS/BUILDINGS)
+    Damage
+    Sprites (SpriteController maybe for damaged sprites)
+    Animations (AnimationController)
+  "UNITS":
+    MapMovable
+    Abilities
+  "BUILDINGS":
+    Bonuses
+  "EFFECTS":
