@@ -10,3 +10,15 @@ MAP OBJECTS:
   "BUILDINGS":
     Bonuses
   "EFFECTS":
+
+MAP ITSELF:
+  TERRAIN:
+    Type (Land/Water)
+      Land
+        Fields (none)
+        Mud (Units become stuck until the end of the next turn when they enter)
+        Forest (Speed capped to 1, -1 dmg from ranged attacks)
+        Mountain (Impassable except by air units)
+      Water
+        Body (Impassable by land units)
+        River (Land units can not attack while on, but passable by land and naval units)
